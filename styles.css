@@ -1,0 +1,120 @@
+* {
+    direction: rtl;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial, Helvetica, sans-serif";
+    text-decoration: none;
+    font-family: "Iranian-Sans";
+
+}
+
+@font-face {
+    font-family: "Iranian-Sans";
+    src: url("./Font/Iranian\ Sans.ttf") format("ttf"),
+        url("./Font/Iranian\ Sans.woff") format("woff"),
+        url("./Font/Iranian\ Sans.woff2") format("woff2");
+    font-weight: 400;
+}
+
+body {
+    margin: auto;
+    width: 565px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    border-bottom: 1px solid #acaaaa;
+
+}
+
+.menu-title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    text-align: center;
+    line-height: 2;
+    margin: 38px 0px;
+}
+
+.cities-view {
+
+    font-weight: 500;
+    text-align: start;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 36px 0 50px 0;
+}
+
+.cities-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 160px;
+}
+
+.cities-name {
+    color: rgb(0, 0, 0);
+    font-size: 1.0rem;
+    font-weight: 500;
+}
+
+.horizontal {
+    width: 100%;
+}
+
+.authorization {
+    margin: 30px 0;
+}
+
+.svg {
+    width: 26px;
+    height: 26px;
+}
+
+.social-icon {
+    display: flex;
+    margin: 22px 0;
+    gap: 35px;
+}
+
+.man {
+    width: 26px;
+    height: 66px;
+
+}
+
+.field-search {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    gap: 8px;
+
+}
+
+input {
+    border: none;
+}
+
+.fa-brands {
+    font-size: 22px;
+}
